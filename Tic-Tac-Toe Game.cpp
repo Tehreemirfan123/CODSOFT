@@ -42,7 +42,7 @@ void UserInput( char player ) {
     int row , col ;
     
     while ( true ) {
-        cout << " Player " << player << ", Please enter your move (enter the row and then column from 0 - 1 ): " ;
+        cout << " Player " << player << ", Please enter your move (enter the row and then column from 0 - 2 ): " ;
         cin >> row >> col ;
         
         if ( isValidMove ( row , col ) ) {
